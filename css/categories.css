@@ -1,0 +1,407 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  width: 100%;
+}
+#subhead{
+  color: white;
+  font-style: oblique;
+  font-weight: 700;
+  font-stretch: expanded;
+}
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background-image: url('https://www.coloursofnature.com/wp-content/uploads/2017/01/runninghabit.jpg');
+  /*background: #1abc9c;*/
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Active/current link */
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
+
+/* Main column */
+.main {
+  -ms-flex: 100%; /* IE10 */
+  flex: 100%;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 900px;
+  margin: auto;
+}
+.main h2 {
+  font-size: 32px;
+  color: #474747;
+  text-align: center;
+}
+.main h5 {
+  font-size: 15px;
+  color: #8d8d8d;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.card1 {
+  height: 200px;
+  width: 900px;
+  margin: 15px auto;
+  padding-bottom: 20px;
+  border-radius: 7px 7px 7px 7px;
+  -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+
+}
+
+.category-img1 {
+  float: left;
+  height: 200px;
+  width: 300px;
+}
+
+.category-img1 img {
+  border-radius: 7px 0 0 7px;
+  width: 310px;
+}
+
+.category-info1 {
+  float: left;
+  height: 200px;
+  width: 550px;
+  border-radius: 0 7px 10px 7px;
+  background-color: #ffffff;
+}
+
+.category-text1 {
+  height: 200px;
+  width: 550px;
+}
+
+.category-text1 h1 {
+  margin: 0 0 0 38px;
+  padding-top: 30px;
+  font-size: 25px;
+  color: #474747;
+}
+
+
+.category-text1 h2 {
+  margin: 0 0 20px 38px;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #A9A9A9;
+  letter-spacing: 0.2em;
+}
+
+.category-text1 p {
+  margin: 0 0 0 38px;
+  color: #8d8d8d;
+  line-height: 1.5em;
+  font-size: 15px;
+  font-weight: lighter;
+}
+.card2 {
+  height: 200px;
+  width: 900px;
+  margin: 25px auto;
+  padding-bottom: 20px;
+  border-radius: 7px 7px 7px 7px;
+  -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+}
+
+.category-img2 {
+  float: left;
+  height: 200px;
+  width: 300px;
+}
+
+.category-img2 img {
+  border-radius: 7px 0 0 7px;
+  width: 310px;
+}
+
+.category-info2 {
+  float: left;
+  height: 200px;
+  width: 550px;
+  border-radius: 0 7px 10px 7px;
+  background-color: #ffffff;
+}
+
+.category-text2 {
+  height: 200px;
+  width: 550px;
+}
+
+.category-text2 h1 {
+  margin: 0 0 0 38px;
+  padding-top: 30px;
+  font-size: 25px;
+  color: #474747;
+}
+
+
+.category-text2 h2 {
+  margin: 0 0 20px 38px;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #A9A9A9;
+  letter-spacing: 0.2em;
+}
+
+.category-text2 p {
+  margin: 0 0 0 38px;
+  color: #8d8d8d;
+  line-height: 1.5em;
+  font-size: 15px;
+  font-weight: lighter;
+}
+.card3 {
+  height: 200px;
+  width: 900px;
+  margin: 25px auto;
+  padding-bottom: 20px;
+  border-radius: 7px 7px 7px 7px;
+  -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+}
+
+.category-img3 {
+  float: left;
+  height: 200px;
+  width: 300px;
+}
+
+.category-img3 img {
+  border-radius: 7px 0 0 7px;
+  width: 310px;
+}
+
+.category-info3 {
+  float: left;
+  height: 200px;
+  width: 550px;
+  border-radius: 0 7px 10px 7px;
+  background-color: #ffffff;
+}
+
+.category-text3 {
+  height: 200px;
+  width: 550px;
+}
+
+.category-text3 h1 {
+  margin: 0 0 0 38px;
+  padding-top: 30px;
+  font-size: 25px;
+  color: #474747;
+}
+
+
+.category-text3 h2 {
+  margin: 0 0 20px 38px;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #A9A9A9;
+  letter-spacing: 0.2em;
+}
+
+.category-text3 p {
+  margin: 0 0 0 38px;
+  color: #8d8d8d;
+  line-height: 1.5em;
+  font-size: 15px;
+  font-weight: lighter;
+}
+.card4 {
+  height: 200px;
+  width: 900px;
+  margin: 25px auto;
+  padding-bottom: 20px;
+  border-radius: 7px 7px 7px 7px;
+  -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+}
+
+.category-img4 {
+  float: left;
+  height: 200px;
+  width: 300px;
+}
+
+.category-img4 img {
+  border-radius: 7px 0 0 7px;
+  width: 310px;
+}
+
+.category-info4 {
+  float: left;
+  height: 200px;
+  width: 550px;
+  border-radius: 0 7px 10px 7px;
+  background-color: #ffffff;
+}
+
+.category-text4 {
+  height: 200px;
+  width: 550px;
+}
+
+.category-text4 h1 {
+  margin: 0 0 0 38px;
+  padding-top: 30px;
+  font-size: 25px;
+  color: #474747;
+}
+
+
+.category-text4 h2 {
+  margin: 0 0 20px 38px;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #A9A9A9;
+  letter-spacing: 0.2em;
+}
+
+.category-text4 p {
+  margin: 0 0 0 38px;
+  color: #8d8d8d;
+  line-height: 1.5em;
+  font-size: 15px;
+  font-weight: lighter;
+}
+.card5 {
+  height: 200px;
+  width: 900px;
+  margin: 25px auto;
+  margin-bottom: 100px;
+  border-radius: 7px 7px 7px 7px;
+  -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+}
+
+.category-img5 {
+  float: left;
+  height: 200px;
+  width: 300px;
+}
+
+.category-img5 img {
+  border-radius: 7px 0 0 7px;
+  width: 310px;
+}
+
+.category-info5 {
+  float: left;
+  height: 200px;
+  width: 550px;
+  border-radius: 0 7px 10px 7px;
+  background-color: #ffffff;
+}
+
+.category-text5 {
+  height: 200px;
+  width: 550px;
+}
+
+.category-text5 h1 {
+  margin: 0 0 0 38px;
+  padding-top: 30px;
+  font-size: 25px;
+  color: #474747;
+}
+
+
+.category-text5 h2 {
+  margin: 0 0 20px 38px;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #A9A9A9;
+  letter-spacing: 0.2em;
+}
+
+.category-text5 p {
+  margin: 0 0 0 38px;
+  color: #8d8d8d;
+  line-height: 1.5em;
+  font-size: 15px;
+  font-weight: lighter;
+}
+/* Footer */
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .main {
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}

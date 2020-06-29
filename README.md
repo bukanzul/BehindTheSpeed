@@ -1,2 +1,6 @@
-# BehindTheSpeed
-Website for WebTech Project
+# BTS
+ Behind The Speed (website for track sports)
+---
+:-: Read me :--:
+---
+

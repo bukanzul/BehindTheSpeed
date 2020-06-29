@@ -1,0 +1,291 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  width: 100%;
+}
+#subhead{
+  color: white;
+  font-style: oblique;
+  font-weight: 700;
+  font-stretch: expanded;
+}
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background-image: url('https://www.coloursofnature.com/wp-content/uploads/2017/01/runninghabit.jpg');
+  /*background: #1abc9c;*/
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Active/current link */
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
+
+/* Main column */
+.main {
+  -ms-flex: 100%; /* IE10 */
+  flex: 100%;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 900px;
+  margin: auto;
+}
+.main h2 {
+  font-size: 32px;
+  color: #474747;
+  text-align: center;
+}
+.main h5 {
+  font-size: 15px;
+  color: #8d8d8d;
+  font-weight: lighter;
+  text-align: center;
+}
+.post {
+  height: 325px;
+  width: 900px;
+  margin: 10px auto;
+  border-radius: 7px 7px 7px 7px;
+  -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+
+}
+
+.post-img {
+  float: left;
+  height: 325px;
+  width: 284px;
+}
+
+.post-img img {
+  border-radius: 7px 0 0 7px;
+  width: 290px
+}
+
+.post-info {
+  float: left;
+  height: 325px;
+  width: 550px;
+  border-radius: 0 7px 10px 7px;
+  background-color: #ffffff;
+}
+
+.post-text {
+  height: 325px;
+  width: 550px;
+}
+
+.post-text h1 {
+  margin: 0 0 10px 38px;
+  padding-top: 30px;
+  font-size: 25px;
+  color: #474747;
+}
+
+
+.post-text h2 {
+  margin: 0 0 20px 38px;
+  font-size: 13px;
+  font-weight: 400;
+  color: #A9A9A9;
+
+}
+.post-text a {
+  text-decoration: none;
+  color: #057dbc;
+}
+.post-text p {
+  margin: 0 0 0 38px;
+  color: #8d8d8d;
+  line-height: 1.5em;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.products {
+  width: 100%;
+  margin: 70px auto;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  max-width: 900px;
+
+}
+
+.product--1 .product__img, .product--1 .product__img--hover {
+    background-image: url(../images/fitbit.png);
+}
+
+.product--2 .product__img, .product--2 .product__img--hover {
+    background-image: url(../images/beats.jpg);
+}
+.product--3 .product__img, .product--3 .product__img--hover {
+    background-image: url(../images/shoes.jpg);
+}
+
+.product__img {
+  visibility: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 235px;
+  border-top-left-radius: 7px;
+border-top-right-radius: 7px;
+
+}
+
+.product__info-hover {
+    position: absolute;
+    padding: 16px;
+  width: 100%;
+  opacity: 0;
+  top: 0;
+}
+
+.product__img--hover {
+  transition: 0.2s all ease-out;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+  position: absolute;
+    height: 235px;
+  border-top-left-radius: 7px;
+border-top-right-radius: 7px;
+top: 0;
+
+}
+.product {
+  background-color: #fff;
+    width: 33.3%;
+  position: relative;
+  border-radius: 7px;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+}
+.product ~ .product {
+  margin-left: 25px;
+}
+.product:hover {
+  -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+    transform: scale(1.10, 1.10);
+}
+
+.product__info {
+z-index: 2;
+  background-color: #fff;
+  border-bottom-left-radius: 7px;
+border-bottom-right-radius: 7px;
+   padding: 16px 24px 24px 24px;
+}
+
+.product__category {
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #A9A9A9;
+}
+
+.product__title {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #474747;
+}
+
+.product__buy {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    color: #057dbc;
+}
+
+.product:hover .product__img--hover {
+    height: 100%;
+    opacity: 0.3;
+}
+
+.product:hover .product__info {
+    background-color: transparent;
+    position: relative;
+}
+
+.product:hover .product__info-hover {
+    opacity: 1;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .main {
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
