@@ -1,70 +1,69 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  /* Style the body */
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    width: 100%;
-  }
-  #subhead{
-    color: white;
-    font-style: oblique;
-    font-weight: 700;
-    font-stretch: expanded;
-  }
-  /* Header/logo Title */
-  .header {
-    padding: 80px;
-    text-align: center;
-    background-image: url('https://www.coloursofnature.com/wp-content/uploads/2017/01/runninghabit.jpg');
-    /*background: #1abc9c;*/
-    color: white;
-  }
-  
-  /* Increase the font size of the heading */
-  .header h1 {
-    font-size: 40px;
-  }
-  
-  /* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
-  .navbar {
-    overflow: hidden;
-    background-color: #333;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-  }
-  
-  /* Style the navigation bar links */
-  .navbar a {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 20px;
-    text-decoration: none;
-  }
-  
-  
-  /* Right-aligned link */
-  .navbar a.right {
-    float: right;
-  }
-  
-  /* Change color on hover */
-  .navbar a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  /* Active/current link */
-  .navbar a.active {
-    background-color: #666;
-    color: white;
-  }
-  
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+#subhead{
+  color: white;
+  font-style: oblique;
+  font-weight: 700;
+  font-stretch: expanded;
+}
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background-image: url('https://www.coloursofnature.com/wp-content/uploads/2017/01/runninghabit.jpg');
+  /*background: #1abc9c;*/
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Active/current link */
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
 /* Column container */
 .row {
   display: -ms-flexbox; /* IE10 */
@@ -84,10 +83,24 @@
 
 /* Main column */
 .main {
-  -ms-flex: 70%; /* IE10 */
-  flex: 70%;
+  -ms-flex: 100%; /* IE10 */
+  flex: 100%;
   background-color: white;
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 900px;
+  margin: auto;
+}
+.main h2 {
+  font-size: 32px;
+  color: #474747;
+  text-align: center;
+}
+.main h5 {
+  font-size: 15px;
+  color: #8d8d8d;
+  font-weight: lighter;
+  text-align: center;
 }
 
 /* Fake image, just for this example */
@@ -118,6 +131,7 @@
     width: 100%;
   }
 }
+
 
 
 .contact-section{
@@ -198,12 +212,12 @@
     box-sizing: border-box;
 }
 body {
-    background: linear-gradient(to left, grey black);
+    background: linear-gradient(to left, white);
     text-align:center;
-    color:black;
+    color:#fff;
 }
 h3{
-    text-shadow:1px 1px 1px white;
+    text-shadow:1px 1px 1px #fff;
 }
 /* Start  styling the page */
 .container-audio {
@@ -324,7 +338,7 @@ audio:nth-child(2), audio:nth-child(4), audio:nth-child(6) {
     animation-delay: 2s;
 }
 
-@webkit-keyframes Rofa {
+@-webkit-keyframes Rofa {
     0% {
         height: 0%;
         -webkit-transform: translatey(0);

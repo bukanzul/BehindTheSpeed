@@ -1,6 +1,5 @@
 *{
-    margin: 0;
-    padding: 0;
+ 
     font-family: Arial, Helvetica, sans-serif;;
  
  }
@@ -39,3 +38,25 @@
  background-color: #fff;
  color: #000;
  }
+
+ /* Main column */
+.main {
+    -ms-flex: 100%; /* IE10 */
+    flex: 100%;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 900px;
+    margin: auto;
+  }
+  .main h2 {
+    font-size: 32px;
+    color: #474747;
+    text-align: center;
+  }
+  .main h5 {
+    font-size: 15px;
+    color: #8d8d8d;
+    font-weight: lighter;
+    text-align: center;
+  }
