@@ -7,7 +7,7 @@
 
 ---
 
-<p align= "center"> **Group BTS** </p>
+<p align= "center"> Group BTS </p>
 <p align= "center"> Prepared by: </p>
 <p align= "center"> Mohamad Zul Asyraf (1726379) </p>
 <p align= "center"> Arif Ansori (1814171) </p>
@@ -26,7 +26,7 @@ The contribution and enhancement are shown in table 1.
 
 | Name | Contributions | Future Enchancement |
 | ---- | ---- | ---- |
-| Mohamad Zul Asyraf | Pages: Homepage and Techniques Compile all the codes and submit. |      
+| Mohamad Zul Asyraf | - Pages: Homepage and Techniques /n -Compile all the codes and submit. |      
 
 
 
