@@ -21,22 +21,22 @@ Behind the speed is a websites of the running sport which have alot of informati
 Each of the team members prepared 1-2 web pages for the progress presentation as shown in table 1. For now, we have done the HTML and CSS parts. 
 
 <h2>2. Future enhancement</h2>
-A list of complete website will be displayed during the final presentation. Future enchancement shall also include the interaction between pages using javascript.
+A list of complete website will be displayed during the final presentation. Future enhancement shall also include the interaction between pages using javascript.
 The contribution and enhancement are shown in table 1.
 
 
-| Name | Contributions | Future Enchancement |
+| Name | Contributions | Future Enhancement |
 | ---- | ---- | ---- |
 | Mohamad Zul Asyraf | -Pages: Homepage and Techniques / compile all the codes and submit. |  Add javascript to Homepage and Techniques webpages | 
 | Arif Ansori | -Pages: Music and Contact Us | Add javascript to the Music and Contact Us webpages |
-|  Bajaber AbdulRahim Omar | -Pages: Categories and Attire | Add javascript to the Categoris and Attires webpages |
+|  Bajaber AbdulRahim Omar | -Pages: Categories and Attire | Add javascript to the Categories and Attires webpages |
 | Manaaz Riyas | -Pages: Diet | Add javascript to the Diet webpages. | 
 
 <h2> 3. Use of third party resources </h2>
 
 | Web elements | Team Member | Modifications |
 | ---- | ---- | ---- |
-| Graphics for all the webpages | Zul Asyraf, Arin Ansori, AbdulRahim Omar, Manaaz Riyas | All graphics are resized using CSS | 
+| Graphics for all the webpages | Zul Asyraf, Arif Ansori, AbdulRahim Omar, Manaaz Riyas | All graphics are resized using CSS | 
 
 <h2> References </h2>
 
