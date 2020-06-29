@@ -27,8 +27,11 @@ The contribution and enhancement are shown in table 1.
 
 | Name | Contributions | Future Enchancement |
 | ---- | ---- | ---- |
-| Mohamad Zul Asyraf | -Pages: Homepage and Techniques 
--ompile all the codes and submit. |  Add javascript to the webpages. |
+| Mohamad Zul Asyraf | -Pages: Homepage and Techniques Compile all the codes and submit. |  Add javascript to the webpages. | 
+| Arif Ansori | -Pages: Music and Contact Us | Add javascript to the webpages |
+|  Bajaber AbdulRahim Omar | -Pages: Categories and Attire | Add javascript to the webpages |
+| Manaaz Riyas | -Pages: Diet | Add javascript to the webpages. | 
+| --- | --- | --- |
 
 
 
