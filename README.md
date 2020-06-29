@@ -2,7 +2,8 @@
  Behind The Speed (website for track sports)
 
 ---
-<p align= "center"># Read me </p>
+<h1 align= "center"> Read me </h1>
+
 ---
 
 
