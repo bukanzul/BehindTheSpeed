@@ -25,9 +25,7 @@ Each of the team members prepared 1-2 web pages for the progress presentation as
 | ------ | ------------ | 
 | Mohamad Zul Asyraf | -Pages: Homepage and Techniques / compile all the codes and submit. <br/> <br/> <ins> Part 3 </ins> <br/>  -Compiling all the works <br/> -Check for coding error. <br/> -Update the Homepage, Diet and Technique page| 
 | Arif Ansori | -Pages: Music and Contact Us <br/><br/> <ins> Part 3 </ins> <br/> -Add javascript to Contact Us page. <br/> -Update Music and Contact Us page. | 
-|  Bajaber AbdulRahim Omar | -Pages: Categories and Attire <br/><br/> <ins> Part 3 </ins> <br/>HTML: Categories and Attire, Update Navbar, Created Footer + Newsletter Form
-<br/> CSS: Categories and Attire, Update Navbar, Created Footer +Newsletter Form <br/>
-JS (JQuery): Categories (YouTube ifream popup) |  
+|  Bajaber AbdulRahim Omar | -Pages: Categories and Attire <br/><br/> <ins> Part 3 </ins> <br/>HTML: Categories and Attire, Update Navbar, Created Footer + Newsletter Form<br/> CSS: Categories and Attire, Update Navbar, Created Footer +Newsletter Form <br/> JS (JQuery): Categories (YouTube ifream popup) |  
 | Manaaz Riyas | -Pages: Diet <br/><br/> <ins> Part 3 </ins> <br/> -M.I.A. Didn't contribute anything to part 3.  |
 
 <h2> 3. Use of third party resources </h2>
