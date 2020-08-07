@@ -18,16 +18,12 @@
 Behind the speed is a websites of the running sport which have alot of information about the sports.
 
 <h2>1. Group Contributions</h2>
-Each of the team members prepared 1-2 web pages for the progress presentation as shown in table 1. For now, we have done the HTML and CSS parts. 
-
-<h2>2. Future enhancement</h2>
-A list of complete website will be displayed during the final presentation. Future enhancement shall also include the interaction between pages using javascript.
-The contribution and enhancement are shown in table 1.
+Each of the team members prepared 1-2 web pages for the progress presentation as shown in table 1. Table below shows the updated contribution for part 3. 
 
 
 | Name | Contributions | Future Enhancement |
 | ---- | ---- | ---- |
-| Mohamad Zul Asyraf | -Pages: Homepage and Techniques / compile all the codes and submit. |  Add javascript to Homepage and Techniques webpages | 
+| Mohamad Zul Asyraf | -Pages: Homepage and Techniques / compile all the codes and submit. \n Test|  Add javascript to Homepage and Techniques webpages | 
 | Arif Ansori | -Pages: Music and Contact Us | Add javascript to the Music and Contact Us webpages |
 |  Bajaber AbdulRahim Omar | -Pages: Categories and Attire | Add javascript to the Categories and Attires webpages |
 | Manaaz Riyas | -Pages: Diet | Add javascript to the Diet webpages. | 
