@@ -21,12 +21,12 @@ Behind the speed is a websites of the running sport which have alot of informati
 Each of the team members prepared 1-2 web pages for the progress presentation as shown in table 1. Table below shows the updated contribution for part 3. 
 
 
-| Name | Contributions | Future Enhancement |
+| Name | Contributions | 
 | ---- | ---- | ---- |
-| Mohamad Zul Asyraf | -Pages: Homepage and Techniques / compile all the codes and submit. <br/>  Part 3 <br/> -Compiling all the works <br/> -Check for coding error. <br/> -Update the homepage and Technique page|  Add javascript to Homepage and Techniques webpages | 
-| Arif Ansori | -Pages: Music and Contact Us | Add javascript to the Music and Contact Us webpages |
-|  Bajaber AbdulRahim Omar | -Pages: Categories and Attire | Add javascript to the Categories and Attires webpages |
-| Manaaz Riyas | -Pages: Diet | Add javascript to the Diet webpages. | 
+| Mohamad Zul Asyraf | -Pages: Homepage and Techniques / compile all the codes and submit. <br/> <br/> <ins> Part 3 </ins> <br/> <br/> -Compiling all the works <br/> -Check for coding error. <br/> -Update the homepage and Technique page| 
+| Arif Ansori | -Pages: Music and Contact Us | 
+|  Bajaber AbdulRahim Omar | -Pages: Categories and Attire | 
+| Manaaz Riyas | -Pages: Diet |
 
 <h2> 3. Use of third party resources </h2>
 
