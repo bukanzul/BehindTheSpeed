@@ -22,7 +22,7 @@ Each of the team members prepared 1-2 web pages for the progress presentation as
 
 
 | Name | Contributions | 
-| ---- | ---- | 
+| ------ | ------- | 
 | Mohamad Zul Asyraf | -Pages: Homepage and Techniques / compile all the codes and submit. <br/> <br/> <ins> Part 3 </ins> <br/> <br/> -Compiling all the works <br/> -Check for coding error. <br/> -Update the homepage and Technique page| 
 | Arif Ansori | -Pages: Music and Contact Us | 
 |  Bajaber AbdulRahim Omar | -Pages: Categories and Attire | 
