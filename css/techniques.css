@@ -46,8 +46,11 @@ body {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 20px;
+  padding: 20px 20px;
   text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 
@@ -388,12 +391,8 @@ body {
   font-weight: lighter;
 }
 /* Footer */
+
 footer {
-  padding: 40px;
-  padding-left: 10%;
-  padding-right: 10%;
-  background: #ddd;
-  list-style: none;
   width: 100%;
   margin-top: 100px;
   margin-bottom: 0;
@@ -401,16 +400,116 @@ footer {
   overflow-x: auto;
   overflow-y: hidden;
 }
-
-.copyright{
-  display: inline-block;
+.footer-top {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+    overflow: hidden;
+    background-color: #ddd;
+}
+.footer-bottom{
+  overflow: hidden;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: #333;
+}
+.column {
+  float: left;
+  width: 33.33%;
+   /* Should be removed. Only for demonstration */
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column ul{
+  padding: 0;
+  margin-top: 15px;
+  padding-left: 20px;
+}
+.column li{
+  padding-top: 7px;
   color: #8d8d8d;
+}
+.column li a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #057dbc;
+  font-weight: 600;
+}
+.column li a:hover {
+  border-bottom: 2px solid #8d8d8d;
+}
+.newstitle {
+  font-size: 25px;
+  font-weight: bold;
+  color: #474747;
+  margin: 0px;
+  margin-bottom: 5px;
+  padding: 0px;
+
+}
+.newsdesc {
+  color: #8d8d8d;
+  font-size: 15px;
   font-weight: lighter;
+  margin: 0px;
+  padding: 0px;
+}
+#mc-embedded-subscribe-form{
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+#mce-EMAIL{
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 13px;
+  border: 2px solid #ccc;
+  margin-right: 10px;
+  width: 70%;
+  margin-bottom: 10px;
+}
+
+#mc-embedded-subscribe{
+  background: #057dbc;
+  height: 47px;
+  width: 70%;
+  border: none;
+  border-radius: 10px;
+  color: #eee;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 2px;
+  position: relative;
+  -webkit-tap-highlight-color: transparent;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding-top: 5px;
+}
+#mc-embedded-subscribe:hover {
+  opacity: 0.9;
+}
+
+#footer-info{
+  display: block;
+}
+.copyright{
+  color: #8d8d8d;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .footer-icons{
-  display: inline-block;
-  float: right;
+
+  margin-top: 15px;
 }
 .fa {
   display: inline-block;
@@ -420,7 +519,7 @@ footer {
   text-align: center;
   height: 55px;
   width: 55px;
-  margin-left: 5px;
+  margin-right: 5px;
   border-radius: 50%;
 }
 
