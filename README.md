@@ -23,9 +23,9 @@ Each of the team members prepared 1-2 web pages for the progress presentation as
 
 | Name | Contributions | 
 | ------ | ------------ | 
-| Mohamad Zul Asyraf | -Pages: Homepage and Techniques / compile all the codes and submit. <br/> <br/> <ins> Part 3 </ins> <br/>  -Compiling all the works <br/> -Check for coding error. <br/> -Update the homepage and Technique page| 
+| Mohamad Zul Asyraf | -Pages: Homepage and Techniques / compile all the codes and submit. <br/> <br/> <ins> Part 3 </ins> <br/>  -Compiling all the works <br/> -Check for coding error. <br/> -Update the Homepage and Technique page| 
 | Arif Ansori | -Pages: Music and Contact Us <br/><br/> <ins> Part 3 </ins> <br/> -Add javascript to Contact Us page. <br/> -Update Music and Contact Us page. | 
-|  Bajaber AbdulRahim Omar | -Pages: Categories and Attire <br/><br/> < ins> Part 3 </ins> <br/> -Add footer <br/> -Add javascript to Categories page. <br/> -Update the Attire and Categories page.  |  
+|  Bajaber AbdulRahim Omar | -Pages: Categories and Attire <br/><br/> <ins> Part 3 </ins> <br/> -Add footer <br/> -Add javascript to Categories page. <br/> -Update the Attire and Categories page.  |  
 | Manaaz Riyas | -Pages: Diet <br/><br/> <ins> Part 3 </ins> <br/> -M.I.A. Didn't have any contribution to any part.  |
 
 <h2> 3. Use of third party resources </h2>
