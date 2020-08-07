@@ -34,6 +34,9 @@ body {
   position: sticky;
   position: -webkit-sticky;
   top: 0;
+  padding-left: 10%;
+  padding-right: 10%;
+  z-index: 3;
 }
 
 /* Style the navigation bar links */
@@ -97,10 +100,58 @@ body {
 }
 
 /* Footer */
-.footer {
-  padding: 20px;
-  text-align: center;
+footer {
+  padding: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
   background: #ddd;
+  list-style: none;
+  width: 100%;
+  margin: 0;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.copyright{
+  display: inline-block;
+  color: #8d8d8d;
+  font-weight: lighter;
+}
+
+.footer-icons{
+  display: inline-block;
+  float: right;
+}
+.fa {
+  display: inline-block;
+  padding: 20px;
+  font-size: 30px;
+  text-decoration: none;
+  text-align: center;
+  height: 55px;
+  width: 55px;
+  margin-left: 5px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
 }
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */

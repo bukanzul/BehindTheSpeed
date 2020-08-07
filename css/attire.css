@@ -35,6 +35,9 @@ body {
   position: sticky;
   position: -webkit-sticky;
   top: 0;
+  padding-left: 10%;
+  padding-right: 10%;
+  z-index: 3;
 }
 
 /* Style the navigation bar links */
@@ -51,6 +54,7 @@ body {
 /* Right-aligned link */
 .navbar a.right {
   float: right;
+
 }
 
 /* Change color on hover */
@@ -67,21 +71,21 @@ body {
 
 
 /* Main column */
-.main {
+.page-info {
   -ms-flex: 100%; /* IE10 */
   flex: 100%;
   background-color: white;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  width: 900px;
+  padding-top: 30px;
+  padding-bottom: 25px;
+  width: 100%;
   margin: auto;
 }
-.main h2 {
+.page-info h2 {
   font-size: 32px;
   color: #474747;
   text-align: center;
 }
-.main h5 {
+.page-info h5 {
   font-size: 15px;
   color: #8d8d8d;
   font-weight: lighter;
@@ -102,11 +106,12 @@ body {
   float: left;
   height: 325px;
   width: 284px;
+
 }
 
 .post-img img {
   border-radius: 7px 0 0 7px;
-  width: 290px
+  width: 290px;
 }
 
 .post-info {
@@ -132,14 +137,21 @@ body {
 
 .post-text h2 {
   margin: 0 0 20px 38px;
-  font-size: 13px;
-  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 500;
   color: #A9A9A9;
 
 }
 .post-text a {
   text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
   color: #057dbc;
+}
+.post-text a:hover{
+  border-bottom: 2px solid #D8D8D8;
 }
 .post-text p {
   margin: 0 0 0 38px;
@@ -147,6 +159,64 @@ body {
   line-height: 1.5em;
   font-size: 15px;
   font-weight: lighter;
+}
+
+.button-link a{
+  margin-left: 38px;
+}
+#btn {
+  margin: 30px 0 0 38px;
+  background: #057dbc;
+  height: 50px;
+  min-width: 150px;
+  border: none;
+  border-radius: 10px;
+  color: #eee;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 2px;
+  position: relative;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding-top: 5px;
+}
+
+#btn #circle {
+  width: 5px;
+  height: 5px;
+  background: transparent;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  overflow: hidden;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#btn:hover {
+  opacity: 0.7;
+}
+
+#btn:hover #circle {
+  height: 50px;
+  width: 100%;
+  left: 0;
+  border-radius: 0px;
+  transition: 800ms;
+  border-bottom: 2px solid #eee;
 }
 
 .products {
@@ -161,31 +231,31 @@ body {
 }
 
 .product--1 .product__img, .product--1 .product__img--hover {
-    background-image: url(../images/fitbit.png);
+  background-image: url(../images/fitbit.png);
 }
 
 .product--2 .product__img, .product--2 .product__img--hover {
-    background-image: url(../images/beats.jpg);
+  background-image: url(../images/beats.jpg);
 }
 .product--3 .product__img, .product--3 .product__img--hover {
-    background-image: url(../images/shoes.jpg);
+  background-image: url(../images/shoes.jpg);
 }
 
 .product__img {
   visibility: hidden;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 235px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 235px;
   border-top-left-radius: 7px;
-border-top-right-radius: 7px;
+  border-top-right-radius: 7px;
 
 }
 
 .product__info-hover {
-    position: absolute;
-    padding: 16px;
+  position: absolute;
+  padding: 16px;
   width: 100%;
   opacity: 0;
   top: 0;
@@ -193,20 +263,20 @@ border-top-right-radius: 7px;
 
 .product__img--hover {
   transition: 0.2s all ease-out;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
   position: absolute;
-    height: 235px;
+  height: 235px;
   border-top-left-radius: 7px;
-border-top-right-radius: 7px;
-top: 0;
+  border-top-right-radius: 7px;
+  top: 0;
 
 }
 .product {
   background-color: #fff;
-    width: 33.3%;
+  width: 33.3%;
   position: relative;
   border-radius: 7px;
   overflow: hidden;
@@ -225,54 +295,107 @@ top: 0;
 }
 
 .product__info {
-z-index: 2;
+  z-index: 2;
   background-color: #fff;
   border-bottom-left-radius: 7px;
-border-bottom-right-radius: 7px;
-   padding: 16px 24px 24px 24px;
+  border-bottom-right-radius: 7px;
+  padding: 16px 24px 24px 24px;
 }
 
 .product__category {
-    text-transform: uppercase;
-    font-size: 13px;
-    letter-spacing: 2px;
-    font-weight: 500;
-    color: #A9A9A9;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: #A9A9A9;
 }
 
 .product__title {
-    margin-top: 5px;
-    margin-bottom: 10px;
-    color: #474747;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #474747;
 }
 
 .product__buy {
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 12px;
-    color: #057dbc;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  color: #057dbc;
+}
+.product__buy:hover {
+  border-bottom: 2px solid #D8D8D8;
 }
 
 .product:hover .product__img--hover {
-    height: 100%;
-    opacity: 0.3;
+  height: 100%;
+  opacity: 0.3;
 }
 
 .product:hover .product__info {
-    background-color: transparent;
-    position: relative;
+  background-color: transparent;
+  position: relative;
 }
 
 .product:hover .product__info-hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 /* Footer */
+
 footer {
-  padding: 20px;
-  text-align: center;
+  padding: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
   background: #ddd;
+  list-style: none;
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 0;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.copyright{
+  display: inline-block;
+  color: #8d8d8d;
+  font-weight: lighter;
+}
+
+.footer-icons{
+  display: inline-block;
+  float: right;
+}
+.fa {
+  display: inline-block;
+  padding: 20px;
+  font-size: 30px;
+  text-decoration: none;
+  text-align: center;
+  height: 55px;
+  width: 55px;
+  margin-left: 5px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
 }
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
