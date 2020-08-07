@@ -23,7 +23,7 @@ Each of the team members prepared 1-2 web pages for the progress presentation as
 
 | Name | Contributions | Future Enhancement |
 | ---- | ---- | ---- |
-| Mohamad Zul Asyraf | -Pages: Homepage and Techniques / compile all the codes and submit. \n Test|  Add javascript to Homepage and Techniques webpages | 
+| Mohamad Zul Asyraf | -Pages: Homepage and Techniques / compile all the codes and submit. <br/>  Test|  Add javascript to Homepage and Techniques webpages | 
 | Arif Ansori | -Pages: Music and Contact Us | Add javascript to the Music and Contact Us webpages |
 |  Bajaber AbdulRahim Omar | -Pages: Categories and Attire | Add javascript to the Categories and Attires webpages |
 | Manaaz Riyas | -Pages: Diet | Add javascript to the Diet webpages. | 
